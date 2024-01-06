@@ -33,7 +33,6 @@ const Todo = () => {
          <div className='tasks'>
           {tasks.map((task,index)=>(
             <ListingOfTask task={task} removeTask={removeTask} index={index}  key={index}/>
-            
           ))}
           </div>
     </div>
@@ -42,3 +41,4 @@ const Todo = () => {
 }
 
 export default Todo
+
